@@ -1,24 +1,33 @@
-# README
+# Groove with Greg
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo is a basic CRUD app for maintaining a record collection.
 
-Things you may want to cover:
+![A screenshot of the app in action](https://i.imgur.com/FDpAEtO.mp4)
 
-* Ruby version
+Features include:
 
-* System dependencies
+* Create, view, update and delete records
+* Table view for all records in collection
+* Search for records within collection
+* Inline edit records through double-click table cells
+* Change table page size
+* Sort table columns for records by ID, title, artist, year and condition
+* View records by number per year in horizontal bar chart
 
-* Configuration
+## Boilerplate Code
 
-* Database creation
+This repo was forked from the boilerplate repo "List of Ingredients" that has a simple Rails 5 API with a basic React frontend. You can find more information on that tutorial and code here: [A Rock Solid, Modern Web Stack—Rails 5 API + ActiveAdmin + Create React App on Heroku](https://blog.heroku.com/a-rock-solid-modern-web-stack).
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+```shell
+git clone https://github.com/heroku/groove-with-greg.git
+cd groove-with-greg
+bundle
+yarn --cwd client install
+bin/rake db:migrate db:seed start
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## Questions, Suggestions, Comments?
 
-* Deployment instructions
-
-* ...
+Get in touch by adding an [issue](https://github.com/sekhar/groove-with-greg/issues).
