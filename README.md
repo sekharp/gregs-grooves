@@ -1,6 +1,6 @@
 # Groove with Greg
 
-This repo contains a basic CRUD app for maintaining a record collection. You can find the app [deployed to production on Heroku](https://groove-with-greg.herokuapp.com).
+This repo contains a basic CRUD app for maintaining a record collection. You can find a version of the app [deployed to production on Heroku](https://groove-with-greg.herokuapp.com).
 
 Features include:
 
@@ -32,4 +32,4 @@ bin/rake db:migrate db:seed start
 
 ## Questions, Suggestions, Comments?
 
-Get in touch by adding an [issue](https://github.com/sekharp/groove-with-greg/issues).
+Get in touch by adding an [issue](https://github.com/sekharp/gregs-grooves/issues).

@@ -1,4 +1,5 @@
-class RecordsController < ApiController
+class RecordsController < ApplicationController
+	skip_before_action :verify_authenticity_token  
 	# GET /records
 	def index
 		@records = Record.all
