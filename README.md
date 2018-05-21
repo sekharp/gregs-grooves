@@ -20,6 +20,8 @@ This repo was forked from the boilerplate repo "List of Ingredients" that has a 
 
 ## Getting Started
 
+To run this app locally, run the following commands in your terminal:
+
 ```shell
 git clone https://github.com/heroku/groove-with-greg.git
 cd groove-with-greg
